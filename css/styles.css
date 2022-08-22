@@ -50,12 +50,12 @@ img {
   background-image: url(../img/header_bg.svg);
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 10rem;
+  background-size: 15rem;
   padding: 5rem 0;
 }
 @media (min-width: 768px) {
   .header {
-    background-size: 45rem;
+    background-size: 50rem;
   }
 }
 @media (min-width: 992px) {
@@ -65,7 +65,7 @@ img {
 }
 @media (min-width: 1200px) {
   .header {
-    background-size: 130rem;
+    background-size: 100rem;
   }
 }
 .header__content {
@@ -83,8 +83,28 @@ img {
   width: 15rem;
   margin: 0 auto 3rem auto;
 }
-@media (min-width: 768px){  
+@media (min-width: 768px) {
   .header__logo {
     margin: 0;
+  }
+}
+.navegation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .navegation {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+.navegation__link {
+
+}
+@media (min-width: 768px){  
+  .navegation__link {
+    color: var(--blanco)
   }
 }
