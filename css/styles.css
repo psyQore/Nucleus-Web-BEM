@@ -40,7 +40,7 @@ img {
   max-width: 100%;
   display: block;
 }
-.contenedor {
+[class$="__content"] {
   max-width: 120rem;
   margin: 0 auto;
   width: 90%;
@@ -67,11 +67,6 @@ img {
   .header {
     background-size: 90rem;
   }
-}
-.header__content {
-  max-width: 120rem;
-  margin: 0 auto;
-  width: 90%;
 }
 @media (min-width: 768px) {
   .header__bar {
@@ -139,9 +134,17 @@ img {
   color: var(--blanco);
   margin-bottom: 4rem;
 }
-@media (min-width: 768px){  
+@media (min-width: 768px) {
   .header__button {
     padding: 1rem 3rem;
     display: inline-block;
   }
+}
+/* Que es */
+.nucleus {
+  margin-top: 3rem;
+}
+.nucleus__heading {
+  text-align: center;
+  margin-bottom: 5rem;
 }
