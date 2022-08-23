@@ -50,7 +50,7 @@ img {
   background-image: url(../img/header_bg.svg);
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 15rem;
+  background-size: 10rem;
   padding: 5rem 0;
 }
 @media (min-width: 768px) {
@@ -65,7 +65,7 @@ img {
 }
 @media (min-width: 1200px) {
   .header {
-    background-size: 100rem;
+    background-size: 90rem;
   }
 }
 .header__content {
@@ -116,6 +116,9 @@ img {
   flex-direction: column;
   align-items: center;
 }
+.navegation__link {
+  color: var(--primario);
+}
 @media (min-width: 768px) {
   .navegation {
     flex-direction: row;
@@ -123,10 +126,22 @@ img {
     gap: 2rem;
   }
 }
-.navegation__link {
-}
 @media (min-width: 768px) {
   .navegation__link {
     color: var(--blanco);
+  }
+}
+.header__button {
+  background-color: var(--primario);
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  color: var(--blanco);
+  margin-bottom: 4rem;
+}
+@media (min-width: 768px){  
+  .header__button {
+    padding: 1rem 3rem;
+    display: inline-block;
   }
 }
