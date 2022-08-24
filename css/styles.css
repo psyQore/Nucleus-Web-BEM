@@ -129,6 +129,9 @@ img {
     color: var(--blanco);
   }
 }
+.navegation__link--white {
+  color: var(--blanco);
+}
 .header__button {
   background-color: var(--primario);
   display: block;
@@ -302,9 +305,29 @@ img {
   top: 3.5rem;
   left: 2rem;
 }
-
 .testimonial__author {
   color: var(--primario);
   font-weight: 700;
   text-align: right;
+}
+/* Footer */
+.footer {
+  background-color: #5a30a0;
+  padding: 3rem 0;
+}
+.footer__logo {
+  width: 20rem;
+  margin: 0 auto 4rem auto;
+}
+@media (min-width: 768px) {
+  .footer__grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .footer__logo {
+    margin: 0;
+  }
 }
